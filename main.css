@@ -1,7 +1,10 @@
 body {
-    font-family: 'Rubik', sans-serif;
-    background-color: #336699;
-    text-align: center;
-    color: white;
-  }
+  background-color: #336699;
+}
+
+#title{
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  color: white;
+}
 
