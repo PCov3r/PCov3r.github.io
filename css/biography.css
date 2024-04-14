@@ -1,0 +1,22 @@
+#biography_section
+{
+	position: relative;
+	z-index: 1;
+	height: 100vh;
+	width: 100vw;
+	max-width: 100%;
+	background: white;
+}
+
+#biography_section .content
+{
+    align-content: flex-start;
+}
+
+#biography_section .title
+{
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+	font-size: 18px;
+	color: black;
+}
