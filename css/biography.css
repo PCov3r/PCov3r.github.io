@@ -21,3 +21,54 @@
 	font-size: 18px;
 	color: black;
 }
+
+#biography_section .presentation
+{
+    display: flex;
+	flex-direction: row;
+	padding-top: 30px;
+}
+
+/* Timeline Container */
+.timeline {
+	background: var(--primary-color);
+	margin: 20px auto;
+	padding: 20px;
+	width: calc(100%-25vw);
+  }
+  
+  /* Card container */
+  .card {
+	max-width: 400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+  }
+  
+  
+  /* Information about the timeline */
+  .info {
+	background: #333;
+	color: gray;
+	border-radius: 10px;
+	padding-left: 10px;
+	margin-top: 10px;
+  }
+
+  .timeline_photo
+  {
+	width: 15vw;
+	clip-path: circle(40%);
+	position: absolute;
+  }
+
+  .timeline_photo img{
+	max-width: 100%;
+	max-height: 100%;
+  }
+  
+  /* Title of the card */
+  .timeline_title {
+	color: orangered;
+  }
+  
