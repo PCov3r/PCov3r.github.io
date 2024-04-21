@@ -41,3 +41,12 @@ body
     width: 100%;
     padding: 0px 150px;
 }
+
+.tilted
+{
+	height: 8vw;
+	width: 100%;
+	align-content: flex-start;
+	transform: skewY(-10deg);
+	margin-top: 20px;
+}
