@@ -1,0 +1,9 @@
+#contact_section
+{
+	position: relative;
+	z-index: 1;
+	height: 20vh;
+	width: 100vw;
+	max-width: 100%;
+	background: #faf9f6;
+}

@@ -1,79 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Paul Devouge</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/biography.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-    <main id="main">
-        <section class="section" id="home_section">
-            <div class="content">
-                <span class="greetins">Hello, my name is</span>
-                <span class="name">Paul Devouge</span>
-                <p class="short_intro">
-                    I am a French PhD student working in Particle Physics at CEA Saclay. </br>
-                    You can follow my journey here. Feel free to have a look around !
-                </p>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Paul Devouge</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/biography.css">
+  <link rel="stylesheet" href="css/news.css">
+  <link rel="stylesheet" href="css/contributions.css">
+  <link rel="stylesheet" href="css/projects.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <main id="main">
+    <ul>
+      <li><a href="#home_section">Home</a></li>
+      <li><a href="#biography_section">About</a></li>
+      <li><a href="#news_section">News</a></li>
+      <li><a href="#contribution_section">Publications</a></li>
+      <li><a href="#project_section">Projects</a></li>
+      <li><a href="#contact_section">Contact</a></li>
+    </ul>
+    <section class="section" id="home_section">
+      <div class="content">
+        <span class="greetins">Hello, my name is</span>
+        <span class="name">Paul Devouge</span>
+        <p class="short_intro">
+          I am a French PhD student working in Particle Physics at CEA Saclay. </br>
+          You can follow my journey here. Feel free to have a look around !
+        </p>
+      </div>
+
+    </section>
+
+    <section class="section" id="biography_section">
+
+      <div class="content">
+        <span class="title">Let me introduce myself,</span>
+        <div class="presentation">
+          <div class="about_me">
+          <p>
+            Hey there, my name is Paul Devouge. I am a PhD student in Particle Physics working full time at CEA Saclay.
+            During my free time, I like to create things and I've worked on different projects, from weather stations to
+            embedded Machine Learning or even robots. <br> <br>
+
+            I graduated from the <a href="https://www.ensea.fr/en">Ecole Nationale Superieure de l'Electronique et de
+              Ses Applications </a>, a French engineering school specialized in electronics,
+            computer science and telecommunications. During my third year, I studied at <a
+              href="https://www.ucc.ie/en/">University College Cork</a>, as part of a double degree
+            in Electrical and Electronic Engineering. My Master's Thesis was about parallel compliant robots, with the
+            study and development
+            of a 3RRR compliant planar parallel robot. <br> <br>
+
+            I specialized in electronic engineering. I have always been interested in Physics and
+            Engineering and am currently doing research in particle physics, working on the CMS experiment at CERN. My
+            thesis work consists both in a Physics
+            analysis, and technical work. More precisely, I am working on the Level-1 Trigger for the CMS experiment,
+            with embedded
+            distributed neural networks on FPGAs.
+
+          </p>
+          </div>
+          <div class="timeline">
+            <div class="leftcard">
+              <div class="timeline_photo">
+                <img id="IRFU_img" src="assets/irfu_signaturesac_der.png" />
+              </div>
+              <div class="info">
+                <h3 class="timeline_title">CEA Saclay</h3>
+                <h6>2022-203</h6>
+                <p>Electrical and Electronic Engineering</p>
+              </div>
             </div>
 
-        </section> 
-
-        <section class="section" id="biography_section">
-            
-            <div class="content">
-                <span class="title">Let me introduce myself,</span>
-                <div class="presentation">
-                <p> 
-                Hey there, my name is Paul Devouge. I am a PhD student working full time at CEA Saclay. I have always been interested in Physics and
-                Engineering. During my free time, I like to create things and I've done many different projects, from weather stations to
-                embedded Machine Learning or even robots. <br> <br>
-
-                I graduated from the Ecole Nationale Superieure de l'Electronique et de Ses Applications, a French engineering school specialized in electronics, 
-                computer science and telecommunications. During my third year, I studied at University College Cork, as part of a double degree
-                in electrical and electronic engineering. My Master's Thesis was about parallel compliant robots, with the study and development
-                of a 3RRR compliant planar parallel robot. <br> <br>
-                
-                I specialized in electronic engineering 
-                and am currently doing research in particle physics, working on the CMS experiment at CERN. My thesis work consists both in a Physics
-                analysis, and technical work. More precisely, I am working on the Level-1 Trigger for the CMS experiment, with embedded 
-                distributed neural networks on FPGAs.
-                
-              </p>
-              <div class="timeline">
-                  <div class="card">
-                    
-                      <div class="timeline_photo">
-                      <img src="assets/UCC_img.png" />
-                    </div>
-                    <div class="info">
-                      <h3 class="timeline_title">Title 1</h3>
-                    </div>
-                  </div>
+            <div class="rightcard">
+              <div class="timeline_photo">
+                <img id="UCC_img" src="assets/UCC_img.png" />
               </div>
-
-
+              <div class="info">
+                <h3 class="timeline_title">UCC</h3>
+                <h6>2022-2023</h6>
+                <p>Electrical and Electronic Engineering</p>
               </div>
-            
+            </div>
+
+            <div class="leftcard">
+              <div class="timeline_photo">
+                <img id="ENSEA_img" src="assets/ensea.jpg" />
+              </div>
+              <div class="info">
+                <h3 class="timeline_title">ENSEA</h3>
+                <h6>2020-2023</h6>
+                <p>Electrical and Electronic Engineering</p>
+              </div>
+            </div>
+          </div>
         </div>
 
-        </section>
-        <section class="section" id="publication_section">
+      </div>
 
-        </section>
-        <section class="section" id="projects_section">
+    </section>
+    <section class="section" id="news_section">
+      <div class="content">
+        <span>
+          Some news,
+        </span>
+      </div>
+    </section>
 
-        </section>
+    </section>
+    <section class="section" id="contribution_section">
+      <div class="content">
+        <span>
+          Here are my latest contributions,
+        </span>
+      </div>
+    </section>
 
-        <section class="section" id="contact_section">
+    <section class="section" id="project_section">
+      <div class="content">
+        <span>
+          Some of my personal projects
+        </span>
+      </div>
+    </section>
 
-        </section>
-    </main>
-	<script src="index.js"></script>
-  </body>
+    <section class="section" id="contact_section">
+      <div class="content">
+        <span>
+          Feel free to contact me
+        </span>
+      </div>
+    </section>
+  </main>
+  <script src="index.js"></script>
+</body>
+
 </html>
