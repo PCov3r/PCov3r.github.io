@@ -7,3 +7,72 @@
 	max-width: 100%;
 	background: #faf9f6;
 }
+
+#contribution_section .content {
+	align-items: center;
+	height: 80vh;
+}
+
+#contribution_section .title
+{
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+	font-size: 35px;
+	color: black;
+}
+
+.gearbox{
+	height: 30vh;
+	width: 50vw;
+	display: flex;
+	align-items: center;
+	margin: 100px 0;
+}
+
+.gear{
+	width: 50%;
+	height: 100%;
+	position: relative;
+}
+
+.gear:first-of-type {
+	top: 65px;
+  left: 17vw;
+}
+
+.gearright{
+	height: 75%;
+	width: auto;
+	animation: ckw 3s linear infinite;
+}
+
+.gearleft{
+	height: 50%;
+	width: auto;
+	animation: cckw 3s linear infinite;
+}
+
+@keyframes ckw {
+    0% {
+        transform: rotate(25deg);
+    }
+    100% {
+        transform: rotate(385deg);
+    }
+}
+
+@keyframes cckw {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.wip {
+	font-family: "Trebuchet MS";
+    font-weight: bold;
+	font-size: 25px;
+	color: black;
+}

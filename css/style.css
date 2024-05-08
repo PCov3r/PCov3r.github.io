@@ -18,7 +18,8 @@ body
 	overflow-x: hidden;
 	position: relative;
 	width: 100%;
-	background-color: rgb(1,0,18);
+	background-color: #faf9f6;
+	;
 }
 
 #main

@@ -7,3 +7,37 @@
 	max-width: 100%;
 	background: #faf9f6;
 }
+
+#contact_section .content{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#contact_section .title
+{
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+
+#surround{
+	width:20vw;
+}
+
+.networks {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.social {
+	padding: 20px;
+}
+
+.social img{
+	width: 50px;
+}
