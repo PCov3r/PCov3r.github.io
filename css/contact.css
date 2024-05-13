@@ -2,7 +2,7 @@
 {
 	position: relative;
 	z-index: 1;
-	height: 20vh;
+	height: 35vh;
 	width: 100vw;
 	max-width: 100%;
 	background: #faf9f6;
@@ -15,6 +15,20 @@
 	justify-content: space-around;
 }
 
+@media screen and (max-width: 800px)
+{
+	#contact_section .content
+	{
+		flex-direction: column;
+		justify-content: center;
+		gap:50px;
+	}
+
+	#surround{
+		width:auto;
+	}
+}
+
 #contact_section .title
 {
     font-family: "Trebuchet MS";
@@ -24,7 +38,7 @@
 }
 
 #surround{
-	width:20vw;
+	width: 20vw;
 }
 
 .networks {
@@ -32,10 +46,14 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
+	gap:50px;
 }
 
 .social {
 	padding: 20px;
+	border-radius: 15px;
+	background-color: white;
+	box-shadow: 0px 0px 10px rgba(28, 28, 51, 0.2);
 }
 
 .social img{

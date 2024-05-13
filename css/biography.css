@@ -2,7 +2,7 @@
 {
 	position: relative;
 	z-index: 1;
-	height: 100vh;
+	min-height: 100vh;
 	width: 100vw;
 	max-width: 100%;
 	background: #faf9f6;
@@ -29,6 +29,28 @@
 	flex-direction: row;
 	padding-top: 30px;
 }
+
+
+@media screen and (max-width: 800px)
+{
+	#biography_section .presentation
+	{
+		flex-direction: column;
+		justify-content: center;
+	}
+	#biography_section .about_me
+	{
+		max-width: 100%;
+	}
+
+	#biography_section .timeline
+	{
+		width: 100%;
+		top: 0px;
+	}
+}
+
+
 .about_me {
 	background: var(--primary-color);
 	margin: 20px auto;
@@ -44,7 +66,9 @@
 	width: 40%;
 	display: flex;
 	flex-direction: column;
-	gap: 20%;
+	gap: 30%;
+	position: relative;
+	top: -80px;
   }
 
   .rightcard {
@@ -63,6 +87,43 @@
 	align-self: start;
 	max-width: 400px;
 	width: fit-content;
+  }
+
+  /* Setting the border of top, bottom, left */
+.rightcard::before {
+	content: "";
+  position: absolute;
+  width: 80px;
+  border: solid orangered;
+	left: -55px;
+	top: -50px;
+	bottom: -50px;
+	border-width: 5px 5px 5px 0;
+	border-radius: 0 50px 50px 0;
+  }
+
+  .leftcard:first-child::before {
+	content: "";
+  position: absolute;
+  width: 80px;
+  border: solid orangered;
+	left: 4%;
+	top: 0px;
+	bottom: -72px;
+	border-width: 0 0 5px 5px;
+	border-radius: 0 0 0 50px;
+  }
+
+  .leftcard:last-child::before {
+	content: "";
+  position: absolute;
+  width: 80px;
+  border: solid orangered;
+	left: 4%;
+	top: -71px;
+	bottom: -60px;
+	border-width: 5px 0 0 5px;
+	border-radius: 50px 0 0 0;
   }
   
   
